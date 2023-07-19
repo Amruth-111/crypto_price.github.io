@@ -1,0 +1,47 @@
+/* Styling for Buttons */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+    height: 41px;
+  }
+  #stockprice {
+    text-align: center;
+  }
+  
+  
+  
+  /* Styling for Textboxes */
+  input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Example usage */
+  .button:hover {
+    background-color: #f1e571;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #85b7d9;
+    box-shadow: 0 0 5px #85b7d9;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
