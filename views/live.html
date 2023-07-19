@@ -7,13 +7,20 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css ">
+        <link rel="stylesheet" href="../style.css">
     </head>
     <body>
-        <button class="button" id="live">live price</button>
-        <br>&nbsp;
-        <button  class="button" id="present">just price</button>
+    <form method="#" id="form1">
+        <input type="text" placeholder="btcusdt" id="coin">
+        <input class="button" type="submit" id="submit">
+        <br><br>
+    <div>
+        <h1 id="stockprice"></h1>
+    </div>
+    </form>
+    
+     
     </body>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js'></script>
-    <script src="index.js"></script>
+    <script src="live.js"></script>
 </html>
