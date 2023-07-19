@@ -53,7 +53,7 @@ function closeWebSocket() {
 
 async function getcoin(e){
     e.preventDefault()
-    let name1=coin.value
+    let name1=coin.value.toLowerCase()
     console.log(name1)
     if(name1.toUpperCase()!==stockprice.innerText){
         closeWebSocket()
